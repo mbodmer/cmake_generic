@@ -1,4 +1,4 @@
-= Generic CMake
+# Generic CMake
 
 This is an attempt to create a cmake build environment for bare-metal mcu
 builds with cmake.
@@ -6,7 +6,7 @@ builds with cmake.
 For this I extend the "Generic" platform files. Right now for GCC and Clang
 compilers.
 
-== Structure
+## Structure
 
 CMake chooses the platform file depending on the values of
 - CMAKE_SYSTEM_NAME
@@ -29,7 +29,7 @@ as you have set them in your toolchain file.
 └── CMakeLists.txt                      # Example for a project
 ```
 
-== Usage
+## Usage
 
 At least cmake version 3.6 is needed.
 The example also shows the usage of ninja as buildtool.
